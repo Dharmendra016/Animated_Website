@@ -41,3 +41,33 @@ html , body {
     left: 50%;
     transform: translate(-50% , -50%);
 }
+
+#hero{
+    /* background-color: red; */
+    padding: 0 10vw;
+    margin-top: 15vw;
+}
+
+.sustain{
+    width: 10vw;
+}
+.sustain p{
+    font-weight: 800;
+    opacity: 0.5;
+    font-size: 12px;
+    margin: 10px 0;
+    /* line-height: 1; */
+    text-transform: capitalize;
+}
+
+.sustain .sus-img-wrapper{
+    background-color: yellow;
+    width: 100%;
+    height: 15vw;
+}
+
+.sus-img-wrapper img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
