@@ -201,3 +201,20 @@ html , body {
     background-position: 0% 60%;
 }
 
+
+#pictures{
+    padding: 3vw;
+    padding-left: 14vw;
+    padding-right: 12vw;
+}
+
+.leftpic{
+    width: 17vw;
+}
+
+.leftpic .picimg{
+    width: 100%;
+    height: 24vw;
+    margin-bottom: 1vw;
+    background-color: red;
+}
