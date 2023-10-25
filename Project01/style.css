@@ -203,18 +203,79 @@ html , body {
 
 
 #pictures{
+    display: flex;
+    justify-content: space-between;
     padding: 3vw;
     padding-left: 14vw;
     padding-right: 12vw;
+    margin-top: 8vw;
 }
 
 .leftpic{
     width: 17vw;
 }
 
+.leftpic h1{
+    letter-spacing: -.1vw;
+    font-weight: 100;
+    font-size: 2vw;
+}
+.leftpic p{
+    font-size: 14px;
+    margin-top: 10px;
+    opacity: .8;
+    font-size: 1vw;
+    letter-spacing: -.07vw;
+    line-height: 1;
+}
+
 .leftpic .picimg{
     width: 100%;
     height: 24vw;
     margin-bottom: 1vw;
-    background-color: red;
+}
+
+.leftpic .picimg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.rightpic .picimg{
+    width: 100%;
+    height: 37vw;
+    margin-bottom: 1vw;
+}
+
+.rightpic .picimg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.rihgtpic h1{
+    letter-spacing: -.1vw;
+    font-weight: 100;
+    font-size: 2vw;
+}
+.rightpic p{
+    font-size: 14px;
+    margin-top: 10px;
+    opacity: .8;
+    font-size: 1vw;
+    letter-spacing: -.07vw;
+    line-height: 1;
+}
+
+.rightpic{
+    width: 25vw;
+   /* text-align: right; */
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.rightpic p{
+    width: 50%;
+    text-align: right;
 }
